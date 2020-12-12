@@ -1,1 +1,5 @@
 # Scrape hilariously bad cNET commentaries from the 1990's and early 2000s
+
+CNET featured some really bad prognostications for the decades ahead, but to their credit they have maintained a well structured archive of all of these painfully bad artifacts.
+
+My favorite is perhaps 2004's "Bye-bye Bluetooth" https://www.cnet.com/news/bye-bye-bluetooth/ in which Bill Gurley, now a successful VC perhaps best known for keeping Uber on the road during their upheaveals, explains why the industry should dump Bluetooth in favor of 802.11 for short-range device communications. Given how much trouble it can still be to pair bluetooth devices, maybe he had a good point, but I'm not sure I want my mouse, keyboard, and headphones to require a wifi connection. Another gem is "Amazon is an anachronism" https://www.cnet.com/news/amazon-is-an-anachronism/ which explains why Amazon is will fail because it mimics old catalog sales, all the while describing an ideal ecommerce solution that includes consumer reviews and direct shipments that sounds... well an awfully lot like Amazon.
