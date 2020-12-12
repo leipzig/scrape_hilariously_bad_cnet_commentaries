@@ -19,6 +19,9 @@ getContent<-function(year,page){
 }
 
 #maybe someway to use purrrlyr::invoke_rows for this but it seems to not cooperate
-yearpages %>% plyr::mdply(getPages) %>% select(-limit) %>% plyr::mdply(getContent) -> allContent
-allContent %>% filter(str_detect(links,'^/news/\\S+')) -> news
-news %>% filter(str_detect(titles,'Commentary')) -> commentary
+yearpages %>% 
+  plyr::mdply(getPages) %>% 
+  select(-limit) %>% 
+  plyr::mdply(getContent) %>%
+  filter(str_detect(links,'^/news/\\S+')) %>% 
+  filter(str_detect(titles,'Commentary')) -> commentary
